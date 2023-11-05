@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #a615cf,
+    #8934cd,
+    #6e42c7,
+    #544abe,
+    #3d4eb2,
+    #364dac,
+    #304ca5,
+    #2b4b9f,
+    #2f479e,
+    #34439e,
+    #393f9c,
+    #3e3a9b
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+}
+
+header .date {
+  font-family: "Tilt Neon", sans-serif;
+  flex: 1;
+  margin: 10px;
+  color: white;
+}
+
+header .form-check {
+  font-family: "Tilt Neon", sans-serif;
+  margin: 10px;
+  color: white;
+}
+
+.container {
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  width: 350px;
+  margin: 100px auto;
+  background-color: #d9d9d9;
+  /* height: 350px; */
+}
+
+h3 {
+  font-family: "Gabarito", sans-serif;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  font-size: 25px;
+  color: #364dac;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 7px;
+  border: 0;
+}
+
+.input input:focus {
+  outline: 0;
+}
+
+.input button {
+  border-radius: 20px;
+  width: 100px;
+  padding: 5px;
+  border: 0;
+  background-color: #ff6300;
+  cursor: pointer;
+}
+
+.para {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+p.result {
+  text-align: center;
+  color: rgb(252, 255, 65);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+footer p {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.twitter svg:hover path {
+  fill: #00acee;
+  transition: all ease 0.3s;
+}
+
+.instagram svg:hover path {
+  fill: #ff1e00;
+  transition: all ease 0.3s;
+}
+
+.linkedin svg:hover path {
+  fill: #0072b1;
+  transition: all ease 0.3s;
+}
+
+.github svg:hover path {
+  fill: #ffffff;
+  transition: all ease 0.3s;
+}
